@@ -9,6 +9,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     // site: 'https://example.com',
     site: 'https://dorumuk.github.io',
-    // base: 'my-repo',
+    base: 'blog-for-you',
     integrations: [mdx(), sitemap(), tailwind()],
 });
