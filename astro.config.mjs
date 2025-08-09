@@ -9,6 +9,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   // site: 'https://example.com',
   site: "https://blog-big-wave.vercel.app",
-  base: "blog-big-wave",
+  base: "/",
   integrations: [mdx(), sitemap(), tailwind()],
 });
